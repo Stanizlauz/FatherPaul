@@ -2,137 +2,186 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import { Link } from "react-router-dom";
-import emailjs from '@emailjs/browser';
-
-
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-    const sendEmail = (e) => {
-        e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-        emailjs.sendForm('service_p4jswda', 'template_kh9sg39', e.target, 'user_3Qmrr6MR0vYHh7GiRvOW9')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
+    emailjs
+      .sendForm(
+        "service_p4jswda",
+        "template_kh9sg39",
+        e.target,
+        "user_3Qmrr6MR0vYHh7GiRvOW9"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
-    <Header />
+      <Header />
+
       <div>
-        {/* ======= Breadcrumbs ======= */}
+        {/* Page Header Start */}
         <div
-          className="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: 'url("images/janet2.jpg")' }}
+          className="container-fluid page-header1 py-5 mb-5 wow fadeIn"
+          data-wow-delay="0.1s"
         >
-          <div className="container position-relative d-flex flex-column align-items-center">
-            <h2>Contact</h2>
-            <ol>
-              <li>
-              <Link to="/" className="active">
-                  Home
-                </Link>
-              </li>
-              <li>Contact</li>
-            </ol>
+          <div className="container py-5">
+            <h1 className="display-3 text-white mb-3 animated slideInDown">
+              Contact Us
+            </h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+              <ol className="breadcrumb text-uppercase mb-0">
+                <li className="breadcrumb-item">
+                  <Link to="/" className="text-white">
+                    Home
+                  </Link>
+                </li>
+                <li
+                  className="breadcrumb-item text-primary active"
+                  aria-current="page"
+                >
+                  Contact
+                </li>
+              </ol>
+            </nav>
           </div>
         </div>
-        {/* End Breadcrumbs */}
-        {/* ======= Contact Section ======= */}
-        <section id="contact" className="contact">
-          <div className="container position-relative" data-aos="fade-up">
-            <div className="row gy-4 d-flex justify-content-end">
-              <div className="col-lg-5" data-aos="fade-up" data-aos-delay={100}>
-                {/* <div className="info-item d-flex">
-                  <i className="bi bi-geo-alt flex-shrink-0" />
-                  <div>
-                    <h4>Location:</h4>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+        {/* Page Header End */}
+        {/* Contact Start */}
+        <div className="container-xxl py-5">
+          <div className="container">
+            <div className="row g-4">
+              {/* <div className="col-lg-4">
+                <div className="h-100 bg-light rounded d-flex align-items-center p-5">
+                  <div
+                    className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                    style={{ width: 55, height: 55 }}
+                  >
+                    <i className="fa fa-map-marker-alt text-primary" />
                   </div>
-                </div> */}
-                {/* End Info Item */}
-                <div className="info-item d-flex">
-                  <div>
-                    <h4>Email:</h4>
-                    <a href="mailto: janethiggins.info@gmail.com" className="email">
-                    <p>Janethiggins.info@gmail.com</p>
+                  <div className="ms-4">
+                    <p className="mb-2">Address</p>
+                    <h5 className="mb-0">123 Street, New York, USA</h5>
+                  </div>
+                </div>
+              </div> */}
+              <div className="col-lg-4">
+                <div className="h-100 bg-light rounded d-flex align-items-center p-5">
+                  <div
+                    className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                    style={{ width: 55, height: 55 }}
+                  >
+                    <i className="fab fa-telegram text-primary" />
+                  </div>
+                  <div className="ms-4">
+                    {/* <p className="mb-2"></p> */}
+                    <a
+                      href="https://t.me/Tradewithjanet"
+                      className="text-white"
+                    >
+                      <h5 className="mb-0">Telegram</h5>
+
+                      {/* <p>+1 5589 55488 55</p> */}
                     </a>
                   </div>
                 </div>
-                {/* End Info Item */}
-                <div className="info-item d-flex">
-                <a href="https://t.me/Tradewithjanet" className="text-white">
-                  <i className="bi bi-telegram flex-shrink-0" />
-                    <h4>Telegram</h4>
-                    {/* <p>+1 5589 55488 55</p> */}
-                  </a>
+              </div>
+              <div className="col-lg-4">
+                <div className="h-100 bg-light rounded d-flex align-items-center p-5">
+                  <div
+                    className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                    style={{ width: 55, height: 55 }}
+                  >
+                    <i className="fa fa-envelope-open text-primary" />
+                  </div>
+                  <div className="ms-4">
+                    <p className="mb-2">Mail Us Now</p>
+                    <a
+                      href="mailto: janethiggins.info@gmail.com"
+                      className="email"
+                    >
+                      <h5 className="mb-0">Janethiggins.info@gmail.com</h5>
+                    </a>
+                  </div>
                 </div>
-                {/* End Info Item */}
               </div>
-              <div className="col-lg-6" data-aos="fade-up" data-aos-delay={250}>
-                <form
-                 onSubmit={sendEmail}
-                >
-                  <div className="row">
-                    <div className="col-md-6 form-group">
-                      <input
-                        type="text"
-                        name="name"
-                        className="form-control"
-                        id="name"
-                        placeholder="Your Name"
-                        required
-                      />
+              <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div className="bg-light rounded p-5">
+                  <p className="d-inline-block border rounded-pill py-1 px-4">
+                    Contact Us
+                  </p>
+                  <h1 className="mb-4">Have Any Query? Please Contact Me!</h1>
+                  <p className="mb-4">Get in touch</p>
+                  <form onSubmit={sendEmail}>
+                    <div className="row g-3">
+                      <div className="col-md-6">
+                        <div className="form-floating">
+                          <input
+                            name="name"
+                            required
+                            type="text"
+                            className="form-control"
+                            id="name"
+                            placeholder="Your Name"
+                          />
+                          <label htmlFor="name">Your Name</label>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="form-floating">
+                          <input
+                            type="email"
+                            name="user_email"
+                            required
+                            className="form-control"
+                            id="email"
+                            placeholder="Your Email"
+                          />
+                          <label htmlFor="email">Your Email</label>
+                        </div>
+                      </div>
+                      <div className="col-12">
+                        <div className="form-floating">
+                          <textarea
+                            className="form-control"
+                            name="message"
+                            placeholder="Leave a message here"
+                            id="message"
+                            style={{ height: 100 }}
+                            defaultValue={""}
+                          />
+                          <label htmlFor="message">Message</label>
+                        </div>
+                      </div>
+                      <div className="col-12">
+                        <button
+                          className="btn btn-primary w-100 py-3"
+                          type="submit"
+                        >
+                          Send Message
+                        </button>
+                      </div>
                     </div>
-                    <div className="col-md-6 form-group mt-3 mt-md-0">
-                      <input
-                        type="email"
-                        className="form-control"
-                        name="user_email"
-                        id="email"
-                        placeholder="Your Email"
-                        required
-                      />
-                    </div>
-                  </div>
-                  {/* <div className="form-group mt-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      name="subject"
-                      id="subject"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div> */}
-                  <div className="form-group mt-3">
-                    <textarea
-                      className="form-control"
-                      name="message"
-                      rows={5}
-                      placeholder="Message"
-                      required
-                      defaultValue={""}
-                    />
-                  </div>
-                  <div className="my-3">
-                   
-                  </div>
-                  <div className="text-center">
-                    {/* <button type="submit">Send Message</button> */}
-                    <button type="submit" className="btn btn-info">
-                 send
-                </button>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
-              {/* End Contact Form */}
+             
             </div>
           </div>
-        </section>
-        {/* End Contact Section */}
+        </div>
+        {/* Contact End */}
       </div>
+
+     
 
       <Footer />
     </>

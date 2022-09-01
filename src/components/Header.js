@@ -10,29 +10,80 @@ export default function Header() {
   //     tog?.classList.remove("toggled");
   //   }
   // };
-  const myFunc = () => {
-    const tog = document.getElementById("navbarsExampleDefault");
-    tog.classList.toggle("open");
-  };
+  // const myFunc = () => {
+  //   const tog = document.getElementById("navbarsExampleDefault");
+  //   tog.classList.toggle("open");
+  // };
 
   return (
     <>
-    
-    
+      <div>
+        {/* Topbar Start */}
+      
+        {/* Topbar End */}
+        {/* Navbar Start */}
+        <nav
+          className="navbar navbar-expand-lg bg-white navbar-light fixed-top p-0 wow fadeIn"
+          data-wow-delay="0.1s"
+        >
+          <a
+            href="index.html"
+            className="navbar-brand d-flex align-items-center px-4 px-lg-5"
+          >
+            <h1 className="m-0 text-primary">
+              {/* <i className="far fa-hospital me-3" /> */}
+              CJH
+            </h1>
+          </a>
+          <button
+            type="button"
+            className="navbar-toggler me-4"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="navbar-nav ms-auto p-4 p-lg-0">
+              <Link to="/" className="nav-link active" aria-current="page">
+                Home
+              </Link>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+              <Link to="/examination" className="nav-link">
+                Examination
+              </Link>
+              <Link to="/experience" className="nav-link">
+                Experience
+              </Link>
+              <Link to="/contact" className="nav-link">
+                Contact
+              </Link>
+            </div>
+            {/* <a
+              href
+              className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+            >
+              Appointment
+              <i className="fa fa-arrow-right ms-3" />
+            </a> */}
+          </div>
+        </nav>
+        {/* Navbar End */}
+      </div>
+
       {/* Navigation */}
-      <nav
+      {/* <nav
         id="navbarExample"
         className="navbar navbar-expand-lg fixed-top navbar-light"
         aria-label="Main navigation"
-        style={{padding: "0px", backgroundColor: "ash", position: "fixed"}}
+        style={{ padding: "0px", backgroundColor: "ash", position: "fixed" }}
       >
         <div className="container">
-          {/* Image Logo */}
           <a className="navbar-brand logo-image" href="index.html">
             <h3>CJH</h3>
           </a>
-          {/* Text Logo - Use this if you don't have a graphic logo */}
-          {/* <a class="navbar-brand logo-text" href="index.html">Nubis</a> */}
           <button
             className="navbar-toggler p-0 border-0"
             type="button"
@@ -47,7 +98,6 @@ export default function Header() {
             id="navbarsExampleDefault"
           >
             <ul className="navbar-nav ms-auto navbar-nav-scroll">
-            
               <li className="nav-item">
                 <Link to="/" className="nav-link active" aria-current="page">
                   Home
@@ -80,10 +130,8 @@ export default function Header() {
               </a>
             </span>
           </div>{" "}
-          {/* end of navbar-collapse */}
         </div>{" "}
-        {/* end of container */}
-      </nav>{" "}
+      </nav>{" "} */}
       {/* end of navbar */}
       {/* end of navigation */}
       {/* ======= Header ======= */}

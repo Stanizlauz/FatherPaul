@@ -1,10 +1,54 @@
-import React from 'react'
+import React from "react";
 
 export default function HeaderBody() {
   return (
-   <>
-    {/* Header */}
-    <section>
+    <>
+
+      
+
+
+      {/* Header Start */}
+      <div className="container-fluid header bg-primary p-0 mb-5">
+        <div className="row g-0 align-items-center flex-column-reverse flex-lg-row">
+        
+          <div className="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+            <h1 className="display-4 text-white mb-5">
+              A Better Way To Invest
+            </h1>
+            <div className="row g-4">
+              <div className="col-sm-4">
+                <div className="border-start border-light ps-4">
+                  <h2 className="text-white mb-1" data-toggle="counter-up">
+                    12
+                  </h2>
+                  <p className="text-light mb-0">Years of Experience</p>
+                </div>
+              </div>
+              <div className="col-sm-4">
+                <div className="border-start border-light ps-4">
+                  <h2 className="text-white mb-1" data-toggle="counter-up">
+                    54
+                  </h2>
+                  <p className="text-light mb-0">State Licenses</p>
+                </div>
+              </div>
+              <div className="col-sm-4">
+                <div className="border-start border-light ps-4">
+                  <h2 className="text-white mb-1" data-toggle="counter-up">
+                    1597
+                  </h2>
+                  <p className="text-light mb-0">Client Served</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      {/* Header End */}
+
+      {/* Header */}
+      {/* <section>
         <header id="header" className="header">
           <div className="container">
             <div className="row">
@@ -21,13 +65,11 @@ export default function HeaderBody() {
                     investment & exchange approaches fuelled by my exceptional
                     skills and work ethic, ensuring maximum satisfaction.{" "}
                   </p>
-                  {/* <a className="btn-solid-lg" href="#services">
-                    Offered services
-                  </a> */}
+               
                 </div>{" "}
-                {/* end of text-container */}
+            
               </div>{" "}
-              {/* end of col */}
+           
               <div className="col-lg-6 col-xl-7">
                 <div className="image-container">
                   <img
@@ -36,17 +78,17 @@ export default function HeaderBody() {
                     alt="alternative"
                   />
                 </div>{" "}
-                {/* end of image-container */}
+           
               </div>{" "}
-              {/* end of col */}
+           
             </div>{" "}
-            {/* end of row */}
+           
           </div>{" "}
-          {/* end of container */}
+         
         </header>{" "}
-        {/* end of header */}
+      
       </section>
-      {/* end of header */}
-   </>
-  )
+      */}
+    </>
+  );
 }

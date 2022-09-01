@@ -1,150 +1,98 @@
 import React from "react";
+import Feature from "./Feature";
 import Footer from "./Footer";
 import Header from "./Header";
 import Testimonials from "./Testimonials";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
     <>
-      {/* ======= Breadcrumbs ======= */}
       <Header />
-
+      {/* Page Header Start */}
       <div
-        className="breadcrumbs d-flex align-items-center"
-        style={{ backgroundImage: 'url("images/janet2.jpg")' }}
+        className="container-fluid page-header py-5 mb-5 wow fadeIn"
+        data-wow-delay="0.1s"
       >
-        <div className="container position-relative d-flex flex-column align-items-center">
-          <h2>About</h2>
-          <ol>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>About</li>
-          </ol>
+        <div className="container py-5">
+          <h1 className="display-3 text-white mb-3 animated slideInDown">
+            About Us
+          </h1>
+          <nav aria-label="breadcrumb animated slideInDown">
+            <ol className="breadcrumb text-uppercase mb-0">
+            <li className="breadcrumb-item">
+                  <Link to="/" className="text-white">
+                    Home
+                  </Link>
+                </li>
+              <li
+                className="breadcrumb-item text-primary active"
+                aria-current="page"
+              >
+                About
+              </li>
+            </ol>
+          </nav>
         </div>
       </div>
-      {/* End Breadcrumbs */}
+      {/* Page Header End */}
 
-      {/* ======= About Section ======= */}
-      <section id="about" className="about">
-        <div className="container" data-aos="fade-up">
-          <div className="row gy-4" data-aos="fade-up">
-            <div className="col-lg-4">
-              <img src="images/janet3.jpg" className="img-fluid" alt="." />
-            </div>
-            <div className="col-lg-8">
-              <div className="content ps-lg-5">
-                <h3>
-                I have been in the markets for over 12 years and have built proficiency, skill and excellence in various strategies on winnning the markets.
-                </h3>
-
-                <ul>
-                  <li>
-                    <i className="bi bi-check-circle-fill" />
-                    I am duly registered and accredited by FINRA nad other top
-                  brokerage regulatory bodies.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill" />I give a self-assured grade of
-                  securities on my client’s investments; ensuring that they
-                  never lose out on a trading or investment promise.
-                  </li>
-                </ul>
+      {/* About Start */}
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+              <div className="d-flex flex-column">
+                <img
+                  className="img-fluid rounded w-75 align-self-end"
+                  src="img/janet.jpg"
+                  alt="."
+                />
+                <img
+                  className="img-fluid rounded w-50 bg-white pt-3 pe-3"
+                  src="img/janet3.jpg"
+                  alt="."
+                  style={{ marginTop: "-25%" }}
+                />
               </div>
+            </div>
+            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <p className="d-inline-block border rounded-pill py-1 px-4">
+                About Me
+              </p>
+              <h1 className="mb-4">
+                I have over 12 years of experience during which I have built
+                proficiency in Trades and Investments...
+              </h1>
+              <p>
+                I only trade in liquid assets or stocks for clients. I do not
+                pose as either of the following: Tutor, Director, Stock Guide or
+                communal firm partner.
+              </p>
+              {/* <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p> */}
+              <p>
+                <i className="far fa-check-circle text-primary me-3" />
+                Round Profit Generation.
+              </p>
+              <p>
+                <i className="far fa-check-circle text-primary me-3" />
+                Safe and Profitable Opportunities.
+              </p>
+              <p>
+                <i className="far fa-check-circle text-primary me-3" />
+                Building rich Portfolio.
+              </p>
+              {/* <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href>Read More</a> */}
             </div>
           </div>
         </div>
-      </section>
-      {/* End About Section */}
+      </div>
+      {/* About End */}
 
-      {/* Services */}
-      <section>
-      <div id="services" className="cards-1 bg-gray">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <h2>What I Provide</h2>
-            </div>{" "}
-            {/* end of col */}
-          </div>{" "}
-          {/* end of row */}
-          <div className="row">
-            <div className="col-lg-12">
-              {/* Card */}
-              <div className="card">
-                <div className="card-icon">
-                  <span className="fas fa-check" />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Personalized Approach</h5>
-                  <p>
-                  Every client gets a plan that meets his/her peculiar needs.
-                  </p>
-                  {/* <a className="read-more no-line" href="article.html">
-                    Learn more <span className="fas fa-long-arrow-alt-right" />
-                  </a> */}
-                </div>
-              </div>
-              {/* end of card */}
-              {/* Card */}
-              <div className="card">
-                <div className="card-icon red">
-                  <span className="fas fa-check" />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Indept Analysis</h5>
-                  <p>
-                  I carry out lot of research and testing to ensure maximum
-                  accuracy.
-                  </p>
-                  {/* <a className="read-more no-line" href="article.html">
-                    Learn more <span className="fas fa-long-arrow-alt-right" />
-                  </a> */}
-                </div>
-              </div>
-              {/* end of card */}
-              {/* Card */}
-              <div className="card">
-                <div className="card-icon green">
-                  <span className="fas fa-check" />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Investment Securities</h5>
-                  <p>
-                  Securing client accounts.
-                  </p>
-                  {/* <a className="read-more no-line" href="article.html">
-                    Learn more <span className="fas fa-long-arrow-alt-right" />
-                  </a> */}
-                </div>
-              </div>
-              {/* end of card */}
-              <div className="card">
-                <div className="card-icon yellow">
-                  <span className="fas fa-check" />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Safe and profitable opportunities</h5>
-                  <p>
-                  Times are hard, I ensure every investment is safe and returns the highest possible yield
-                  </p>
-                  {/* <a className="read-more no-line" href="article.html">
-                    Learn more <span className="fas fa-long-arrow-alt-right" />
-                  </a> */}
-                </div>
-              </div>
-            </div>{" "}
-            {/* end of col */}
-          </div>{" "}
-          {/* end of row */}
-        </div>{" "}
-        {/* end of container */}
-      </div>{" "}
-      {/* end of cards-1 */}
-      {/* end of services */}
-      </section>
-   
+      <Feature />
+
       <Testimonials />
+
       <Footer />
     </>
   );
