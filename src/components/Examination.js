@@ -52,15 +52,14 @@ export default function Examination() {
                         />
                       </div>
                       <div className="solu_title">
-                        <h3>State Securities Law Exam</h3>
+                        <h3>Seminary</h3>
                       </div>
                       <div className="solu_description">
                         <p>
-                          Series 63 - Uniform Securities Agent State Law
-                          Examination.
+                          School
                         </p>{" "}
                         <hr />
-                        <p>Mar 10, 1993</p> <hr />
+                        <p>Class</p> <hr />
                       </div>
                     </div>
                     <div className="solution_card">
@@ -72,12 +71,12 @@ export default function Examination() {
                         />
                       </div>
                       <div className="solu_title">
-                        <h3>General Industry/Products Exam</h3>
+                        <h3>Seminary</h3>
                       </div>
                       <div className="solu_description">
-                        <p>SIE - Securities Industry Essentials Examination.</p>{" "}
+                        <p>School.</p>{" "}
                         <h />
-                        <p>Oct 1, 2018</p> <hr />
+                        <p>Class</p> <hr />
                       </div>
                     </div>
                   </div>
@@ -92,15 +91,14 @@ export default function Examination() {
                         />
                       </div>
                       <div className="solu_title">
-                        <h3>General Industry/Products Exam</h3>
+                        <h3>Seminary</h3>
                       </div>
                       <div className="solu_description">
                         <p>
-                          Series 7 - General Securities Representative
-                          Examination.
+                        School.
                         </p>{" "}
                         <hr />
-                        <p>Feb 23, 1993</p> <hr />
+                        <p>Class</p> <hr />
                       </div>
                     </div>
                     {/* <div className="solution_card">

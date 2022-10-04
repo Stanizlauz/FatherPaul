@@ -84,14 +84,14 @@ export default function Contact() {
                   </div>
                   <div className="ms-4">
                     {/* <p className="mb-2"></p> */}
-                    <a
+                    {/* <a
                       href="https://t.me/Tradewithjanet"
                       className="text-white"
                     >
                       <h5 className="mb-0">Telegram</h5>
 
-                      {/* <p>+1 5589 55488 55</p> */}
-                    </a>
+                      
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                       href="mailto: janethiggins.info@gmail.com"
                       className="email"
                     >
-                      <h5 className="mb-0">Janethiggins.info@gmail.com</h5>
+                      <h5 className="mb-0">example.info@gmail.com</h5>
                     </a>
                   </div>
                 </div>

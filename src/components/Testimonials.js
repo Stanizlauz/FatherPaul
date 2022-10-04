@@ -11,48 +11,37 @@ export default function Testimonials() {
             style={{ maxWidth: 600 }}
           >
             <p className="d-inline-block border rounded-pill py-1 px-4">
-              Client Testimonial.
+              Quotes
             </p>
-            <h4>Get exceptional service, Grow your Portfilio.</h4>
+            <h4>Quotes from the scriptures.</h4>
           </div>
           <div className="row people">
             <div className="col-md-6 col-lg-4 item rounded h-100 p-3 wow fadeInUp">
               <div className="box">
-                <img className="rounded-circle" src="img/client-11.jpg" alt="." />
-                <h3 className="name">Alexia, Jenkins</h3>
-                <p className="title">London,UK.</p>
+                <img className="rounded-circle" src="img/bible.jpg" alt="." />
+                <h3 className="name">Isaiah 41:10</h3>
                 <p className="description">
-                Being a single mum, the need for an extra income stream was
-                    pressing. Thank goodness we crossed paths, I've been able to
-                    bootstrap my business from proceeds on my investment. "{" "}
+                "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand." " "{" "}
                 </p>
               
               </div>
             </div>
             <div className="col-md-6 col-lg-4 item wow fadeInUp">
               <div className="box">
-                <img className="rounded-circle" src="img/client-6.jpg" alt="."/>
-                <h3 className="name">Amir Sanghav</h3>
-                <p className="title">Vancouver, Canada.</p>
+                <img className="rounded-circle" src="img/bible.jpg" alt="."/>
+                <h3 className="name">John 16:33</h3>
                 <p className="description">
-                "Scared of losing, I passed on many opportunities, until I
-                    met Madam Caroline. You've been nothing short of a blessing
-                    to my finances. How you pay attention to details and listen
-                    to my needs is second to non. Thank you for all you do."{" "}
+                "In the world you will have tribulation. But take heart; I have overcome the world."{" "}
                 </p>
               
               </div>
             </div>
             <div className="col-md-6 col-lg-4 item wow fadeInUp">
               <div className="box">
-                <img className="rounded-circle" src="img/client-12.jpg" alt="."/>
-                <h3 className="name">Gendolin Roy</h3>
-                <p className="title">Kentucky,</p>
+                <img className="rounded-circle" src="img/bible.jpg" alt="."/>
+                <h3 className="name">Romans 8:28</h3>
                 <p className="description">
-                "I desired a hold of my assets inclusive and I got
-                    introduced to Janet. Subsequently then, it has endlessly
-                    been one progress to the other. I have gained significantly
-                    from working with her."{" "}
+                "And we know that for those who love God all things work together for good, for those who are called according to His purpose."{" "}
                 </p>
                
               </div>
@@ -60,6 +49,22 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
+      
+      <section id="cta" className="cta">
+        <div className="container">
+          <div className="text-center" data-aos="zoom-in">
+            <h3> II Cor. 9:12-13</h3>
+            <p>
+              {" "}
+              the service we provide not only meets needs but expresses thanks to God and leads others to praise God.
+            </p>
+            <a className="cta-btn" href="index.html">
+               II Cor. 9:12-13
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* End Cta Section */}
 
    
 

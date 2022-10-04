@@ -43,8 +43,7 @@ export default function Experience() {
                 <h2>Registration History.</h2>
               </div>
               <p className="text-center">
-                This section provides the SROs and U.S states/territories the
-                broker is currently registered and licensed with
+                Study
               </p>
             </div>
           </div>
@@ -56,8 +55,8 @@ export default function Experience() {
                   <i className="fa fa-desktop" />
                 </div>
                 <div className="feature-content">
-                  <h5>CITIGROUP GLOBAL MARKETS INC. (CRD# 7059)</h5> <hr />
-                  <p> Registered with this Firm since 1995 - 2009.</p>
+                  <h5>School</h5> <hr />
+                  <p> Class</p>
                 </div>
               </div>
             </div>
@@ -69,8 +68,8 @@ export default function Experience() {
                   <i className="fa fa-user" />
                 </div>
                 <div className="feature-content">
-                  <h5>Crypton Trades (CRD# 454)</h5> <hr />
-                  <p> Registered with this Firm since 2020.</p>
+                  <h5>School</h5> <hr />
+                  <p> Class</p>
                 </div>
               </div>
             </div>
@@ -82,8 +81,8 @@ export default function Experience() {
                   <i className="fa fa-comment" />
                 </div>
                 <div className="feature-content">
-                  <h5> CHATFIELD DEAN & CO., INC. (CRD# 14714)</h5> <hr />
-                  <p>Registered with this Firm since 1993</p>
+                  <h5>School</h5> <hr />
+                  <p>Class</p>
                 </div>
               </div>
             </div>
@@ -95,8 +94,8 @@ export default function Experience() {
                   <i className="fa fa-image" />
                 </div>
                 <div className="feature-content">
-                  <h5>GLENFED BROKERAGE SERVICES (CRD# 13648)</h5> <hr />
-                  <p>Registered with this Firm since 1993</p>
+                  <h5>School</h5> <hr />
+                  <p>Class</p>
                 </div>
               </div>
             </div>
@@ -111,7 +110,7 @@ export default function Experience() {
         </div>
       </section>
 
-      <div className="container-fluid header bg-primary p-0 mb-5">
+      {/* <div className="container-fluid header bg-primary p-0 mb-5">
         <div className="row g-0 align-items-center flex-column-reverse flex-lg-row">
           <div className="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
             <h1 className="display-4 text-white mb-5">
@@ -145,7 +144,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>

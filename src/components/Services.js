@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
     <>
       {/* Service Start */}
+      <section className="bg-white">
       <div className="container-xxl py-5">
         <div className="container">
           <div
@@ -13,9 +13,9 @@ export default function Services() {
             style={{ maxWidth: 600 }}
           >
             <p className="d-inline-block border rounded-pill py-1 px-4">
-              What I Provide.
+              Important Doctrines.
             </p>
-            <h4>Get exceptional service, Grow your Portfilio.</h4>
+            <h4>Seven Corporal Works of Mercy.</h4>
           </div>
           <div className="row g-4">
             <div
@@ -23,21 +23,9 @@ export default function Services() {
               data-wow-delay="0.1s"
             >
               <div className="service-item bg-light rounded h-100 p-3">
-                <div
-                  className="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                  style={{ width: 65, height: 65 }}
-                >
-                  <i className="fa fa-address-book text-primary fs-4" />
-                </div>
-                <h4 className="mb-3">Personalized Approach</h4>
-                <p className="mb-4">
-                  Every client gets a plan that meets his/her peculiar needs.
-                </p>
-                <Link to="/experience" className="btn">
-                  <i className="fa fa-plus text-primary me-3" />
-                  Read More
-                </Link>
-                {/* <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a> */}
+               
+                <h4 className="mb-3">Feed the hungry.</h4>
+              
               </div>
             </div>
             <div
@@ -45,21 +33,9 @@ export default function Services() {
               data-wow-delay="0.3s"
             >
               <div className="service-item bg-light rounded h-100 p-3">
-                <div
-                  className="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                  style={{ width: 65, height: 65 }}
-                >
-                  <i className="fa fa-id-badge text-primary fs-4" />
-                </div>
-                <h4 className="mb-3">Indept Analysis</h4>
-                <p className="mb-4">
-                  I carry out lot of research and testing to ensure maximum
-                  accuracy.
-                </p>
-                <Link to="/experience" className="btn">
-                  <i className="fa fa-plus text-primary me-3" />
-                  Read More
-                </Link>
+               
+                <h4 className="mb-3">Give water to the thirsty.</h4>
+               
               </div>
             </div>
             <div
@@ -67,21 +43,9 @@ export default function Services() {
               data-wow-delay="0.5s"
             >
               <div className="service-item bg-light rounded h-100 p-3">
-                <div
-                  className="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                  style={{ width: 65, height: 65 }}
-                >
-                  <i className="fa fa-handshake text-primary fs-4" />
-                </div>
-                <h4 className="mb-3">Safe and Profitable Opportunities</h4>
-                <p className="mb-4">
-                  Times are hard, I ensure every investments is safe and returns
-                  the highest possible yeild.
-                </p>
-                <Link to="/experience" className="btn">
-                  <i className="fa fa-plus text-primary me-3" />
-                  Read More
-                </Link>
+             
+                <h4 className="mb-3">Clothe the naked.</h4>
+             
               </div>
             </div>
             <div
@@ -89,27 +53,46 @@ export default function Services() {
               data-wow-delay="0.1s"
             >
               <div className="service-item bg-light rounded h-100 p-3">
-                <div
-                  className="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                  style={{ width: 65, height: 65 }}
-                >
-                  <i className="fa fa-check text-primary fs-4" />
-                </div>
-                <h4 className="mb-3">Global Mixture</h4>
-                <p className="mb-4">
-                  Where ever you are in the world, you can connect with me and
-                  build a rich portfolio.
-                </p>
-                <Link to="/experience" className="btn">
-                  <i className="fa fa-plus text-primary me-3" />
-                  Read More
-                </Link>
+              
+                <h4 className="mb-3"> Shelter the homeless.</h4>
+              
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div className="service-item bg-light rounded h-100 p-3">
+              
+                <h4 className="mb-3">Visit the sick.</h4>
+              
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div className="service-item bg-light rounded h-100 p-3">
+              
+                <h4 className="mb-3">Visit the imprisoned.</h4>
+              
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div className="service-item bg-light rounded h-100 p-3">
+              
+                <h4 className="mb-3">Bury the dead.</h4>
+              
               </div>
             </div>
           </div>
         </div>
       </div>
       {/* Service End */}
+      </section>
 
       {/* Services */}
       {/* <div id="services" className="cards-1 bg-gray">

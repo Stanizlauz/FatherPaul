@@ -10,16 +10,19 @@ export default function Feature() {
       <div className="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
         <div className="p-lg-5 ps-lg-0">
           {/* <p className="d-inline-block border rounded-pill text-light py-1 px-4">Features</p> */}
-          <h1 className="text-white mb-4">Cheryl Janet Higgins.</h1>
-          <p className="text-white mb-4 pb-2">Years in the field has shown that different clients have different needs. Working with me, you'll get a plan tailored to suit your personal needs and prefences. This way, you have full control over the direction your portfolio is going. I'll be there, gudiding you all through. Your win is my win, and I love winning.</p>
+          <h1 className="text-white mb-4">Daily Mass Readinngs</h1>
+          <p className="text-white mb-4 pb-2">Get updated with the work of God!</p>
           <div className="row g-4">
-            <div className="col-6">
+          <div className="cta1">
+      <div class="cg_mrc_widget"></div>
+      </div>
+            {/* <div className="col-6">
               <div className="d-flex align-items-center">
                 <div className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style={{width: 55, height: 55}}>
                   <i className="fa fa-user-md text-primary" />
                 </div>
                 <div className="ms-4">
-                  {/* <p className="text-white mb-2">Experience</p> */}
+                
                   <h5 className="text-white mb-0">Planning & Research</h5>
                 </div>
               </div>
@@ -30,11 +33,11 @@ export default function Feature() {
                   <i className="fa fa-check text-primary" />
                 </div>
                 <div className="ms-4">
-                  {/* <p className="text-white mb-2">Quality</p> */}
+                
                   <h5 className="text-white mb-0">Testing & Review</h5>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* <div className="col-6">
               <div className="d-flex align-items-center">
                 <div className="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style={{width: 55, height: 55}}>
@@ -62,7 +65,7 @@ export default function Feature() {
       </div>
       <div className="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style={{minHeight: 400}}>
         <div className="position-relative h-100">
-          <img className="position-absolute img-fluid w-100 h-100" src="img/janet2.jpg" style={{objectFit: 'cover'}} alt="." />
+          <img className="position-absolute img-fluid w-100 h-100" src="img/Liturgy.jpg" style={{objectFit: 'cover'}} alt="." />
         </div>
       </div>
     </div>

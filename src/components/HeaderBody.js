@@ -13,31 +13,31 @@ export default function HeaderBody() {
         
           <div className="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
             <h1 className="display-4 text-white mb-5">
-              A Better Way To Invest
+              Minister and Servant of God.
             </h1>
             <div className="row g-4">
               <div className="col-sm-4">
                 <div className="border-start border-light ps-4">
                   <h2 className="text-white mb-1" data-toggle="counter-up">
-                    12
+                    1
                   </h2>
-                  <p className="text-light mb-0">Years of Experience</p>
+                  <p className="text-light mb-0">God</p>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="border-start border-light ps-4">
                   <h2 className="text-white mb-1" data-toggle="counter-up">
-                    54
+                    1
                   </h2>
-                  <p className="text-light mb-0">State Licenses</p>
+                  <p className="text-light mb-0">Family</p>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="border-start border-light ps-4">
                   <h2 className="text-white mb-1" data-toggle="counter-up">
-                    1597
+                    1
                   </h2>
-                  <p className="text-light mb-0">Client Served</p>
+                  <p className="text-light mb-0">Family</p>
                 </div>
               </div>
             </div>

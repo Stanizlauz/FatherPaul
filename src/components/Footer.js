@@ -12,18 +12,18 @@ export default function Footer() {
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">CJH</h5>
-         
+              <h5 className="text-light mb-4">Fr Paul</h5>
+{/*          
               <p className="mb-2">
                 <a href="https://t.me/Tradewithjanet" className="text-white">
                   <i className="fab fa-telegram me-3" />
                 </a>
                 Telegram
-              </p>
+              </p> */}
               {/* <p className="mb-2"><i className="fab fa-telegram  me-3" />Telegram</p> */}
               <p className="mb-2">
                 <i className="fa fa-envelope me-3" />
-                janethiggins.info@gmail.com
+                example.info@example.com
                 <a href="mailto: janethiggins.info@gmail.com"> </a>
               </p>
               {/* <div className="d-flex pt-2">
@@ -132,9 +132,9 @@ export default function Footer() {
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 ©{" "}
                 <p className="border-bottom">
-                  Cheryl Janet Higgins
+                  Father Paul
                 </p>
-                , All Right Reserved.
+                 All Right Reserved.
               </div>
             </div>
           </div>

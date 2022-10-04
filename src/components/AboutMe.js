@@ -12,12 +12,12 @@ export default function AboutMe() {
               <div className="d-flex flex-column">
                 <img
                   className="img-fluid rounded w-75 align-self-end"
-                  src="img/janet.jpg"
+                  src="img/bible.jpg"
                   alt="."
                 />
                 <img
                   className="img-fluid rounded w-50 bg-white pt-3 pe-3"
-                  src="img/janet3.jpg"
+                  src="img/bible.jpg"
                   alt="."
                   style={{ marginTop: "-25%" }}
                 />
@@ -28,27 +28,13 @@ export default function AboutMe() {
                 About Me
               </p>
               <h1 className="mb-4">
-                I have over 12 years of experience during which I have built
-                proficiency in Trades and Investments...
+               I'm a priest
               </h1>
               <p>
-                I only trade in liquid assets or stocks for clients. I do not
-                pose as either of the following: Tutor, Director, Stock Guide or
-                communal firm partner.
+               I'm a Minister of God
               </p>
-              {/* <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p> */}
-              <p>
-                <i className="far fa-check-circle text-primary me-3" />
-                Round Profit Generation.
-              </p>
-              <p>
-                <i className="far fa-check-circle text-primary me-3" />
-                Safe and Profitable Opportunities.
-              </p>
-              <p>
-                <i className="far fa-check-circle text-primary me-3" />
-                Building rich Portfolio.
-              </p>
+             
+             
               <Link
                 to="/about"
                 className="btn btn-primary rounded-pill py-3 px-5 mt-3"

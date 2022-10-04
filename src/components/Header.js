@@ -32,7 +32,7 @@ export default function Header() {
           >
             <h1 className="m-0 text-primary">
               {/* <i className="far fa-hospital me-3" /> */}
-              CJH
+              Father Paul
             </h1>
           </a>
           <button
